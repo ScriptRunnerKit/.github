@@ -10,7 +10,7 @@ their own language, and .NET gets typed, versioned, observable results.
 
 | Project | What it does | Status |
 |---------|--------------|--------|
-| **[PythonScriptRunner](https://github.com/ScriptRunnerKit/PythonScriptRunner)** | Runs Python *stages* from .NET with typed inputs and outputs, chains them into pipelines, queues them on RabbitMQ with retries and cron schedules, and operates them from an embeddable Vue dashboard. Packages on NuGet, SDK on PyPI, containers on GHCR. | First release (v0.1.0) coming soon |
+| **[PythonScriptRunner](https://github.com/ScriptRunnerKit/PythonScriptRunner)** | Runs Python *stages* from .NET with typed inputs and outputs, chains them into pipelines, queues them on RabbitMQ with retries and cron schedules, and operates them from an embeddable Vue dashboard. Packages on NuGet, SDK on PyPI, containers on GHCR. | [v0.1.0](https://github.com/ScriptRunnerKit/PythonScriptRunner/releases/tag/v0.1.0) · [NuGet](https://www.nuget.org/packages/PythonScriptRunner.Core) · [PyPI](https://pypi.org/project/psrunner/) |
 
 ## What we care about
 
