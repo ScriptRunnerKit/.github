@@ -1,0 +1,16 @@
+name: Question
+description: Ask how to do something with one of the projects.
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to achieve? Include what you already tried.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Project version
+      placeholder: e.g. PythonScriptRunner 0.1.0

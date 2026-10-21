@@ -1,0 +1,48 @@
+name: Bug report
+description: Something does not work as documented.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please search the existing issues first. **Security problems go through the private
+        security report, not here.**
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The smallest steps, code, stage or pipeline definition that shows the problem.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and error output
+      description: Relevant logs, stack traces or the run error (remove secrets).
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Project version
+      placeholder: e.g. PythonScriptRunner 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, .NET version, Python version, container or not, database and broker versions.
+      placeholder: |
+        OS: Ubuntu 24.04 (container)
+        .NET: 10.0.x
+        Python: 3.12
+    validations:
+      required: true
